@@ -43,7 +43,7 @@ function GlobeScene({ target }) {
         camera.lookAt(point);
       },
     });
-  }, [target]);
+  }, [target, camera]);
 
   // Chargement de la texture du globe
 
